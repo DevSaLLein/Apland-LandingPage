@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
     toggleButton.addEventListener('click', () => {
 
         toggleButton.children.item(0).classList.toggle('toggleModeSun');
-        document.body.classList.toggle('darkMode');
+        document.body.classList.toggle('dark-mode');
     });
 
     hamburger.addEventListener('click', () => {

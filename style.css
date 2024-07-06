@@ -26,14 +26,14 @@ html ::-webkit-scrollbar {
   display: none;
 }
 
-body.darkMode {
+body.dark-mode {
   background-color: var(--text-color);
   color: white;
   --border-color: rgba(255, 255, 255, 0.1);
   --background-color-menuDropDown: #101720;
 }
 
-body.darkMode > header {
+body.dark-mode > header {
   background-color: var(--text-color);
 }
 
@@ -126,7 +126,7 @@ header > div > section > nav > ul > li {
   transition: all 0.2s ease;
 }
 
-body.darkMode .menu-container > svg {
+body.dark-mode .menu-container > svg {
   fill: white;
 }
 
@@ -343,38 +343,38 @@ main > section {
   position: relative;
 }
 
-.home > figure > .geometricShapes {
+.home > figure > .geometric-sharpe {
   position: absolute;
 }
 
-.home > figure > .geometricBlue {
+.home > figure > .geometric-blue {
   padding: 10%;
   top: -10px;
   left: -10px;
   border-radius: 10px 10px 100% 10px;
   background-color: #0d6efd;
-  animation: geometricShapeBlue-animation 6000ms infinite ease;
+  animation: geometric-shape-blue-animation 6000ms infinite ease;
 }
 
-.home > figure > .geometricYellow {
+.home > figure > .geometric-yellow {
   border-radius: 100% 0 100% 100%;
   background-color: #f1c40f;
   bottom: -20px;
   left: -20px;
   padding: 6%;
-  animation: geometricShapeYellow-animation 8000ms infinite ease;
+  animation: geometric-shape-yellow-animation 8000ms infinite ease;
 }
 
-.home > figure > .geometricRed {
+.home > figure > .geometric-red {
   border-radius: 50% 10px 50% 10px;
   background-color: #f4284a;
   padding: 20% 10%;
   bottom: -40px;
   right: -40px;
-  animation: geometricShapeRed-animation 9000ms infinite ease;
+  animation: geometric-shape-red-animation 9000ms infinite ease;
 }
 
-@keyframes geometricShapeBlue-animation {
+@keyframes geometric-shape-blue-animation {
   0% {
     transform: rotateZ(0deg);
   }
@@ -396,7 +396,7 @@ main > section {
   }
 }
 
-@keyframes geometricShapeYellow-animation {
+@keyframes geometric-shape-yellow-animation {
   0% {
     transform: rotateZ(0deg);
   }
@@ -418,7 +418,7 @@ main > section {
   }
 }
 
-@keyframes geometricShapeRed-animation {
+@keyframes geometric-shape-red-animation {
   0% {
     transform: rotateZ(0deg);
   }
@@ -765,11 +765,11 @@ button > span {
     font-size: 14px;
   }
 
-  body.darkMode .line {
+  body.dark-mode .line {
     stroke: white;
   }
 
-  body.darkMode .menu-mobile {
+  body.dark-mode .menu-mobile {
     background-color: var(--text-color);
   }
 
